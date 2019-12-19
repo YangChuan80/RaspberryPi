@@ -1,4 +1,4 @@
-Python DHT Sensor & LCD 1602 Display
+Autorun Python Script when Raspberry Pi Startup
 ==================================
 
 Python library to read the DHT series of humidity and temperature sensors on a
@@ -27,6 +27,16 @@ sudo nano /etc/rc.local
 sudo python /xx/xx/xx.py
 ```
 #### 4. Save and reboot to take effect
+
+#### 5. Terminate the script
+Open terminal and type:
+```sh
+top
+```
+to find the PID no, then type:
+```sh
+kill #PID NO
+```
 
 
 ### LCD 1602 Driver
