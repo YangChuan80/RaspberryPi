@@ -141,7 +141,7 @@ class MAX30102():
 
         return red_led, ir_led
 
-    def read_sequential(self, amount=100):
+    def read_sequential(self, amount=1000):
         """
         This function will read the red-led and ir-led `amount` times.
         This works as blocking function.
